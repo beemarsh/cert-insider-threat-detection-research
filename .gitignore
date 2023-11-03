@@ -1,0 +1,7 @@
+email_cleaning/errlogs_*
+email_cleaning/logs_*
+email_cleaning/temp_chunks
+email_cleaning/temp_combined
+email_cleaning/temp_results
+email_cleaning/reduced_email_dataset.csv
+
