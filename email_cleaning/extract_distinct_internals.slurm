@@ -2,7 +2,7 @@
 
 #SBATCH --job-name=EXTRACTATTRIBUTES
 
-#SBATCH --partition=himem
+##SBATCH --partition=himem
 #SBATCH --nodes=1  # Number of nodes
 #SBATCH --cpus-per-task=20  # Number of CPU cores
 #SBATCH --output=logs_extractdistinct.log

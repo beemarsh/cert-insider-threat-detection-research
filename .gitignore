@@ -4,4 +4,10 @@ email_cleaning/temp_chunks
 email_cleaning/temp_combined
 email_cleaning/temp_results
 email_cleaning/reduced_email_dataset.csv
+http_cleaning/errlogs_*
+http_cleaning/logs_*
+http_cleaning/temp_combined
+http_cleaning/temp_chunks
+http_cleaning/temp_results
+http_cleaning/reduced_http_dataset.csv
 
