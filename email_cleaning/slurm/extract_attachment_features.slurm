@@ -8,7 +8,9 @@
 #SBATCH --output=logs_attachment_extract.log
 #SBATCH --error=errlogs_attachment_extract.log
 
-NOTEBOOK_FILE="../extract_attachment_counts.ipynb"
+NOTEBOOK_FILE="extract_attachment_counts.ipynb"
+
+cd ..
 
 # Convert the specific .ipynb file to a .py file
 jupyter nbconvert --to script "$NOTEBOOK_FILE"

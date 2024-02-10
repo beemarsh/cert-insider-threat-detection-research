@@ -8,7 +8,8 @@
 #SBATCH --output=logs_reduce.log
 #SBATCH --error=errlogs_reduce.log
 
-NOTEBOOK_FILE="../reduce_dataset.ipynb"
+NOTEBOOK_FILE="reduce_dataset.ipynb"
+cd ..
 
 # Convert the specific .ipynb file to a .py file
 jupyter nbconvert --to script "$NOTEBOOK_FILE"

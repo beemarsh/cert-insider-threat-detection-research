@@ -8,7 +8,9 @@
 #SBATCH --output=logs_extractdistinct.log
 #SBATCH --error=errlogs_extractdistinct.log
 
-NOTEBOOK_FILE="../extract_distinct_internal_emails.ipynb"
+NOTEBOOK_FILE="extract_distinct_internal_emails.ipynb"
+
+cd ..
 
 # Convert the specific .ipynb file to a .py file
 jupyter nbconvert --to script "$NOTEBOOK_FILE"

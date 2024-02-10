@@ -1,0 +1,12 @@
+[NbConvertApp] Converting notebook content_LDA_model.ipynb to script
+[NbConvertApp] Writing 1917 bytes to content_LDA_model.py
+Traceback (most recent call last):
+  File "/homes/01/bxbhusal/cert-insider-threat-detection-research/email_cleaning/content_LDA_model.py", line 51, in <module>
+    corpus = [dictionary.doc2bow(doc) for doc in df["clean_content"].tolist()]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/homes/01/bxbhusal/cert-insider-threat-detection-research/email_cleaning/content_LDA_model.py", line 51, in <listcomp>
+    corpus = [dictionary.doc2bow(doc) for doc in df["clean_content"].tolist()]
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/homes/01/bxbhusal/.local/lib/python3.11/site-packages/gensim/corpora/dictionary.py", line 241, in doc2bow
+    raise TypeError("doc2bow expects an array of unicode tokens on input, not a single string")
+TypeError: doc2bow expects an array of unicode tokens on input, not a single string

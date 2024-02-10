@@ -11,5 +11,10 @@ http_cleaning/temp_chunks
 http_cleaning/temp_results
 http_cleaning/reduced_http_dataset.csv
 email_cleaning/reduced_email_content_dataset.csv
-*/.ipynb_checkpoints
+email_cleaning/.ipynb_checkpoints
+http_cleaning/.ipynb_checkpoints
+*/temp_chunks/*
+*/temp_combined/*
+*/temp_content_chunks/*
+*/temp_results/*
 

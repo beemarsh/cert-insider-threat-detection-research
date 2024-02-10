@@ -8,7 +8,9 @@
 #SBATCH --output=logs_chunkgenerate.log
 #SBATCH --error=errlogs_chunkgenerate.log
 
-NOTEBOOK_FILE="../email_chunks_generator.ipynb"
+NOTEBOOK_FILE="email_chunks_generator.ipynb"
+
+cd ..
 
 # Convert the specific .ipynb file to a .py file
 jupyter nbconvert --to script "$NOTEBOOK_FILE"
